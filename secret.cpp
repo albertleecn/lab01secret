@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int prologue [] = {
@@ -34,12 +34,12 @@ int epilogue [] = {
 	0x20206F74, 0x74786565, 0x65617276, 0x32727463
 };
 
-/*message[100]: too small 希望中文ok?*/
+/*message[100]: too small */
 char message[200];
 
 void usage_and_exit(char * program_name) {
 	fprintf(stderr, "USAGE: %s key1 key2 key3 key4\n", program_name);
-	printf("Press any key to中文 exit...");
+	printf("Press any key to exit...");
 	getchar();
 	exit(1);
 }
