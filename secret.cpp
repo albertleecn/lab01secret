@@ -33,7 +33,7 @@ int epilogue [] = {
 	0x2C336573, 0x7420346E, 0x20216F74, 0x726F5966,
 	0x20206F74, 0x74786565, 0x65617276, 0x32727463
 };
-/*message[100]: too small */
+/*message[100]: too small жпнд*/
 char message[200];
 
 void usage_and_exit(char * program_name) {
