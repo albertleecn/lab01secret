@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 
 int prologue [] = {
@@ -33,12 +33,13 @@ int epilogue [] = {
 	0x2C336573, 0x7420346E, 0x20216F74, 0x726F5966,
 	0x20206F74, 0x74786565, 0x65617276, 0x32727463
 };
-/*message[100]: too small Ï£ÍûÖĞÎÄok?*/
+
+/*message[100]: too small å¸Œæœ›ä¸­æ–‡ok?*/
 char message[200];
 
 void usage_and_exit(char * program_name) {
 	fprintf(stderr, "USAGE: %s key1 key2 key3 key4\n", program_name);
-	printf("Press any keyÈÎÒâ¼ü to exit...");
+	printf("Press any key toä¸­æ–‡ exit...");
 	getchar();
 	exit(1);
 }
